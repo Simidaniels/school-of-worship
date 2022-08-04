@@ -1,0 +1,158 @@
+body{
+    background: #fff;   
+}
+.form-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fdfdfd;
+    box-sizing: border-box;
+    box-shadow: 0 8px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    padding: 15px;
+}
+.heading-container{
+    display: flex;
+}
+.image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px rgb(167, 167, 167) solid;
+    background: #fff;
+    display: inline-block;
+}
+.form-title{
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+.form-content{
+    display: flex;
+}
+.second{
+    margin-left: 10px;
+}
+.form-content input{
+    padding: 8px;
+    width: 26vh;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 128, 128);
+}
+.form-content input::placeholder{
+    font-size: 10px;
+}
+.form-content input:hover{
+    box-shadow: 2px 3px 4px #636363;
+}
+.radio-option{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.union{
+    margin-bottom: 15px;
+}
+.union label{
+    font-size: 15px;
+}
+.union select{
+    width: 25vh;
+    padding: 6px;
+    border-radius: 5px;
+}
+.church-extension{
+    margin-bottom: 15px;
+}
+.church-extension label{
+    font-size: 15px;
+}
+.church-extension select{
+    width: 25vh;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 126, 126);
+}
+.question{
+    margin-bottom: 15px;
+}
+.question label{
+    font-size: 16px;
+}
+.question select{
+    padding: 2px;
+}
+.expect{
+    margin-bottom: 15px;
+    display: grid;
+    font-size: 16px;
+}
+.expect input{
+    padding-bottom: 50px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    word-break: normal;
+}
+.expect input:hover{
+    box-shadow: 1px 1px 7px rgb(126, 126, 126);
+}
+.time{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.time input{
+    padding: 2px;
+    width: 15vh;
+}
+.mail{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.mail input{
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid rgb(124, 124, 124);
+}
+.mail input::placeholder{
+    font-size: 10px;
+}
+.mail input:hover{
+    box-shadow: 1px 1px 7px rgb(126, 126, 126);
+}
+.numbers{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.numbers input{
+    padding: 5px;
+    width: 14vh;
+    border-radius: 4px;
+    border: 1px solid rgb(124, 124, 124);
+}
+.numbers input:hover{
+    box-shadow: 1px 1px 1px rgb(126, 126, 126);
+}
+.click{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.click .submit{
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 78, 33);
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 35vh;
+}
+.click .submit:hover{
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+}
