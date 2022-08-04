@@ -64,6 +64,7 @@ body{
     width: 25vh;
     padding: 6px;
     border-radius: 5px;
+    margin-left: 4px;
 }
 .church-extension{
     margin-bottom: 15px;
@@ -76,6 +77,7 @@ body{
     padding: 6px;
     border-radius: 5px;
     border: 1px solid rgb(126, 126, 126);
+    margin-left: 4vh;
 }
 .question{
     margin-bottom: 15px;
@@ -85,6 +87,13 @@ body{
 }
 .question select{
     padding: 2px;
+    width: 8vh;
+}
+.pick1{
+    margin-left: 22px;
+}
+.pick2{
+    margin-left: 10px;
 }
 .expect{
     margin-bottom: 15px;
@@ -113,7 +122,9 @@ body{
     margin-bottom: 15px;
 }
 .mail input{
+    width: 23vh;
     padding: 6px;
+    margin-left: 8vh;
     border-radius: 4px;
     border: 1px solid rgb(124, 124, 124);
 }
@@ -129,7 +140,7 @@ body{
 }
 .numbers input{
     padding: 5px;
-    width: 14vh;
+    width: 23vh;
     border-radius: 4px;
     border: 1px solid rgb(124, 124, 124);
 }
