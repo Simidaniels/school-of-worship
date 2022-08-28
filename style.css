@@ -1,15 +1,17 @@
 body{
-    background: #fff;   
+    background: #fff;  
+    height: 100vh; 
 }
 .form-wrapper{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #fdfdfd;
-    box-sizing: border-box;
-    box-shadow: 0 8px 25px rgba(0,0,0,.6);
-    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 420px;
+    margin: 0 auto 100px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form-container{
     padding: 15px;
 }
 .heading-container{
@@ -97,17 +99,13 @@ body{
 }
 .expect{
     margin-bottom: 15px;
-    display: grid;
     font-size: 16px;
 }
 .expect input{
     padding-bottom: 50px;
     border-radius: 4px;
-    border: 1px solid grey;
+    border: 1px solid rgb(128, 128, 128);
     word-break: normal;
-}
-.expect input:hover{
-    box-shadow: 1px 1px 7px rgb(126, 126, 126);
 }
 .time{
     font-size: 15px;
@@ -155,15 +153,17 @@ body{
 }
 .click .submit{
     color: rgb(255, 255, 255);
-    background-color: rgb(33, 78, 33);
+    background-color: rgb(46, 109, 46);
     padding: 8px;
     border: none;
     font-size: 16px;
     font-weight: 600;
     border-radius: 5px;
-    width: 35vh;
+    min-width: 30vh;
+    transition: 0.4s ease-in-out;
 }
 .click .submit:hover{
-    transition: 0.6s ease-in-out;
+    
     transform: scale(1.1);
+    background-color: rgb(58, 134, 58);
 }
